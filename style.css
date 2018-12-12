@@ -39,6 +39,11 @@ body{
 		font-size:28pt; 
 	}
 }
+@media only screen and (max-width: 580px){
+	.text-menu{
+		font-size:30pt; 
+	}
+}
 #menu-left img{
 	margin-top:12px;
 	float: left;
@@ -121,6 +126,14 @@ body{
 		font-size:24pt;
 	}
 }
+@media only screen and (max-width: 580px){
+	#content1-text1 ul{
+		font-size:30pt;
+	}
+	#content1-text1 ul li{
+		font-size:26pt;
+	}
+}
 #content1-text1 ul li ul li{
 	border-bottom: none;
 }
@@ -184,6 +197,14 @@ body{
 		font-size:22pt;
 	}
 }
+@media only screen and (max-width: 580px){
+	#content2-div1{
+		font-size:30pt;
+	}
+	#content2-div2{
+		font-size:24pt;
+	}
+}
 #content3{
 	margin: 0 auto;
 	width: 1000px;
@@ -230,6 +251,12 @@ body{
 		padding-top:15px;
 	}
 }
+@media only screen and (max-width: 580px){
+	.content3-mid ul li{
+		font-size:24pt;
+		padding-top:15px;
+	}
+}
 .content3-mid ul li a{
 	text-decoration:none;
 	color: #ffffff;
@@ -244,11 +271,6 @@ body{
 #content3-bot iframe{
 	width:1000px;
 	height:680px;
-}
-@media only screen and (max-width: 800px){
-	#content3-bot{
-	width:800px;
-}
 }
 #content4{
 	width:100%;
@@ -290,6 +312,14 @@ body{
 	}
 	#content4-tittle-div2{
 		font-size:22pt;
+	}
+}
+@media only screen and (max-width: 580px){
+	#content4{
+		font-size:30pt;
+	}
+	#content4-tittle-div2{
+		font-size:24pt;
 	}
 }
 .text-tittle{
@@ -357,6 +387,14 @@ body{
 		font-size:22pt;
 	}
 }
+@media only screen and (max-width: 580px){
+	.header{
+		font-size:30pt;
+	}
+	.text-underheader{
+		font-size:24pt;
+	}
+}
 #bottom1{
 	width:100%;
 	background-color: #f1f3f4;
@@ -412,7 +450,7 @@ body{
 		font-size:18pt;
 	}
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
 	#bottom1 #bottom1-1 .bottom1-2 .name{
 		font-size:20pt;
 	}
@@ -421,6 +459,17 @@ body{
 	}
 	.infor-name{
 		font-size:20pt;
+	}
+}
+@media only screen and (max-width: 580px){
+	#bottom1 #bottom1-1 .bottom1-2 .name{
+		font-size:22pt;
+	}
+	.require{
+		font-size:24pt;
+	}
+	.infor-name{
+		font-size:22pt;
 	}
 }
 #bottom2{
