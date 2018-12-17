@@ -188,7 +188,11 @@ body{
 	color:#202124;
 }
 #content2-div2{
-	margin-top: 10px;margin-bottom:10px;font-size:14pt;color:#5f6368;
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-size:14pt;
+	color:#5f6368;
+	width:800px;
 }
 @media only screen and (max-width: 800px){
 	#content2-div1{
@@ -231,6 +235,9 @@ body{
 #content3-left{
 	float:left;
 	width: 500px;
+}
+.text-underheader{
+	width:800px;
 }
 #content3-right{
 	float:right;
@@ -449,6 +456,7 @@ body{
 }
 .infor-name{
 	font-size: 12pt;
+	color: #5f6368;
 	color: #5f6368;
 }
 @media only screen and (max-width: 800px){
