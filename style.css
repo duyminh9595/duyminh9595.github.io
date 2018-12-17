@@ -154,7 +154,7 @@ body{
 #content1-text1 ul li ul li{
 	border-bottom: none;
 }
-#content1-text1 ul li > .sub-content1{
+#content1-text1 ul li .sub-content1{
 	display: none;
 }
 #content1-text1 ul li:hover .sub-content1{
