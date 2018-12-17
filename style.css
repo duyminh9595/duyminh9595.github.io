@@ -231,30 +231,35 @@ body{
 	line-height: 20px;
 	padding-left:10px;
 	padding-right: 10px;
+	padding-bottom: 5px;
 	border-bottom: 2px solid #464749;
 }
 @media only screen and (max-width: 800px){
 	.content3-mid ul li{
 		font-size:18pt;
 		padding-top:15px;
+		padding-bottom: 8px;
 	}
 }
 @media only screen and (max-width: 700px){
 	.content3-mid ul li{
 		font-size:20pt;
 		padding-top:15px;
+		padding-bottom: 10px;
 	}
 }
 @media only screen and (max-width: 600px){
 	.content3-mid ul li{
 		font-size:22pt;
 		padding-top:15px;
+		padding-bottom: 13px;
 	}
 }
 @media only screen and (max-width: 580px){
 	.content3-mid ul li{
 		font-size:24pt;
 		padding-top:15px;
+		padding-bottom: 14px;
 	}
 }
 .content3-mid ul li a{
@@ -263,6 +268,7 @@ body{
 }
 .content3-mid ul li a:hover{
 	border-bottom: 2px solid #e1e1e1;
+	padding-bottom: 5px;
 }
 #content3-bot{
     padding-top: 25px;
